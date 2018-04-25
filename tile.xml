@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Parrilla xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AnchoVentanaPx>490</AnchoVentanaPx>
+  <AltoVentanaPx>490</AltoVentanaPx>
+  <Filas>2</Filas>
+  <Columnas>2</Columnas>
+  <ColorPrimerPlanoEnNotacionHTML>#E3E9F7</ColorPrimerPlanoEnNotacionHTML>
+  <ColorFondoEnNotacionHTML>#353D5C</ColorFondoEnNotacionHTML>
+  <Fuente>Verdana</Fuente>
+  <TamFuentePt>20</TamFuentePt>
+  <Opciones>
+    <Opcion>
+      <Fila>0</Fila>
+      <Columna>0</Columna>
+      <Nombre>Opcion00</Nombre>
+      <Descripcion>Voy a ejecutar la Opcion00.</Descripcion>
+      <RutaAImagen>img00.png</RutaAImagen>
+      <Comando>dir</Comando>
+	  <EsperarHastaFin>true</EsperarHastaFin>
+	  <DirectorioDeEjecucion>.</DirectorioDeEjecucion>
+    </Opcion>
+    <Opcion>
+      <Fila>0</Fila>
+      <Columna>1</Columna>
+      <Nombre>Opcion01</Nombre>
+      <Descripcion>Voy a ejecutar la Opcion01.</Descripcion>
+      <RutaAImagen>img01.png</RutaAImagen>
+      <Comando>date /T</Comando>
+	  <EsperarHastaFin>true</EsperarHastaFin>
+	  <DirectorioDeEjecucion>.</DirectorioDeEjecucion>
+    </Opcion>
+    <Opcion>
+      <Fila>1</Fila>
+      <Columna>0</Columna>
+      <Nombre>Opcion10</Nombre>
+      <Descripcion>Voy a ejecutar la Opcion10.</Descripcion>
+      <RutaAImagen>img10.png</RutaAImagen>
+      <Comando>date /T</Comando>
+	  <EsperarHastaFin>true</EsperarHastaFin>
+	  <DirectorioDeEjecucion>.</DirectorioDeEjecucion>
+    </Opcion>
+    <Opcion>
+      <Fila>1</Fila>
+      <Columna>1</Columna>
+      <Nombre>Opcion11</Nombre>
+      <Descripcion>Voy a ejecutar la Opcion11.</Descripcion>
+      <RutaAImagen>img11.png</RutaAImagen>
+      <Comando>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Comando>
+	  <EsperarHastaFin>false</EsperarHastaFin>
+	  <DirectorioDeEjecucion>.</DirectorioDeEjecucion>
+    </Opcion>
+  </Opciones>
+</Parrilla>
